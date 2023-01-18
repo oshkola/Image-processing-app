@@ -19,8 +19,8 @@ int main(int argc, char* argv[])
   MainWindow window;
 
   Image img;
- // std::thread th1(img, rotate);
-//  th1.detach();
+  // std::thread th1(img, rotate);
+  // th1.detach();
   return app->run(window);
 }
 
